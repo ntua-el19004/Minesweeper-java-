@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+  <id>bin</id> 
+  <formats>
+    <format>zip</format>
+  </formats>
+  <includeBaseDirectory>false</includeBaseDirectory>
+  <fileSets>
+    <fileSet>
+      <directory>target</directory>
+      <outputDirectory>/</outputDirectory>
+      <includes>
+        <include>*.html</include>
+        <include>*.jar</include>
+        <include>*.jnlp</include>
+      </includes>
+    </fileSet>
+  </fileSets> 
+</assembly>
